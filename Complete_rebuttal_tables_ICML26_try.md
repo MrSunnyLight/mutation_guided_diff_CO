@@ -4,9 +4,9 @@ tags: [mQO]
 
 ---
 
-## Table A: Copmaprison of mQO-MIS vs. ReduMIS and Gurobi on DIMACS dataset. 
+## Table A: Comparison of mQO-MIS vs. ReduMIS and Gurobi on DIMACS dataset. 
 
-| Graph_name | n (number_of_nodes) | m (number_of_edges) | density | gurobi | redumis | mqo_cpu |
+| Graph_name | $n$  | $m$  | density | Gurobi | ReduMIS | mQO-MIS |
 |------------|---------------------|---------------------|---------|--------|---------|---------|
 | brock200-1 | 200 | 14834 | 0.745427 | **6** | **6** | **6** |
 | brock200-2 | 200 | 9876 | 0.496281 | **11** | **11** | **11** |
@@ -85,9 +85,9 @@ tags: [mQO]
 | sanr400-0-5 | 400 | 39984 | 0.501053 | **13** | **13** | 12 |
 | sanr400-0-7 | 400 | 55869 | 0.700113 | **8** | **8** | **8** |
 
-## Table B: Copmaprison of mQO-MaxCut vs. BLS and Gurobi on Gset dataset. 
+## Table B: Comparison of mQO-MaxCut vs. Greedy, BLS, and Gurobi on Gset dataset. 
 
-| Gset | n | m | density | Greedy | Gurobi | BLS | mQO-MaxCut |
+| Gset | $n$ | $m$ | density | Greedy | Gurobi | BLS | mQO-MaxCut |
 |------|----|------|---------|--------|--------|------|------------|
 | G60 | 7000 | 14080 | 0.0007 | 12745 | 14080 | **14155** | 14011 |
 | G61 | 7000 | 14080 | 0.0007 | 12745 | 14080 | **14155** | 14014 |
